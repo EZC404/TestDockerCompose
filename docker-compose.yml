@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  client:
+    container_name: Docker_Manager_Example
+    image: nginx
+    ports:
+      - 8000:80
+    volumes:
+      - ./src:/usr/share/nginx/html

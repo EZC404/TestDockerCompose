@@ -1,7 +1,13 @@
-Name: "test"
-Containers:
-  - Name: "test"
-    Port:
-      From: 30
-      To: 3000
-    Folder: "test"
+{
+  "name": "test",
+  "containers": [
+    {
+      "name": "test1",
+      "port": {
+        "from": 30,
+        "to: 3000
+      },
+      "folder" : "test111"
+    }
+  ]
+}

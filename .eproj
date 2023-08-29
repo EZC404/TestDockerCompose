@@ -2,12 +2,12 @@
   "name": "test",
   "containers": [
     {
-      "name": "test1",
+      "name": "NginxTest",
       "port": {
         "from": 30,
         "to": 3000
       },
-      "folder" : "test111"
+      "folder": "nginx-test"
     }
   ]
 }

@@ -1,7 +1,6 @@
 Name: "test"
 Containers:
-  - Test1:
-    Name: "test"
+  - Name: "test"
     Port:
       From: 30
       To: 3000

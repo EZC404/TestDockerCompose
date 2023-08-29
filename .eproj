@@ -4,8 +4,8 @@
     {
       "name": "NginxTest",
       "port": {
-        "from": 30,
-        "to": 3000
+        "from": 80,
+        "to": "/test"
       },
       "folder": "nginx-test"
     }

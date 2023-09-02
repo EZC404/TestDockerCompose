@@ -9,6 +9,14 @@
         "to": "index"
       },
       "folder": "nginx-test"
+    },
+    {
+      "name": "NginxSubContainerTest",
+      "port": {
+        "from": 80,
+        "to": "/sub"
+      },
+      "folder": "nginx-test2"
     }
   ]
 }

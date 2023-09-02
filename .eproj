@@ -1,11 +1,12 @@
 {
   "name": "test",
+  "url": "/nginxtest",
   "containers": [
     {
       "name": "NginxTest",
       "port": {
         "from": 80,
-        "to": "/nginxtest"
+        "to": "index"
       },
       "folder": "nginx-test"
     }
